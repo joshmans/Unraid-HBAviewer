@@ -13,6 +13,13 @@
 <PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" icon="&icon;">
 
 <CHANGES>
+###2026.08.23###
+**Added**
+- Settings > Temperature Unit: display all temperatures in °F instead of °C.
+  Every sensor is still read, stored, and compared against thresholds in
+  °C internally — this only changes what the UI prints (Overview, dashboard
+  tile, HBA Health, Bay Map, SMART, and the Performance tab's live graphs).
+
 ###2026.08.17###
 SAS4 / 9600-series (`mpi3mr`) cards are now read instead of being named and
 refused. Ported from techanonymous's `Unraid-HBAviewer-sas4` fork (MIT,
